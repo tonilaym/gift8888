@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анимированный подарок со звездами</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas></canvas>
+
+    <div class="present">
+        <div class="gift-image">
+            <!-- ЗАМЕНИТЕ НА ВАШУ ССЫЛКУ ИЛИ ОТНОСИТЕЛЬНЫЙ ПУТЬ -->
+            <img src="https://via.placeholder.com/150/e5ce81/191970?text=Your+Image" alt="Gift">
+        </div>
+        
+        <div class="rotate-container">
+            <div class="bottom"></div>
+            <div class="front"></div>
+            <div class="left"></div>
+            <div class="back"></div>
+            <div class="right"></div>
+            
+            <div class="lid">
+                <div class="lid-top"></div>
+                <div class="lid-front"></div>
+                <div class="lid-left"></div>
+                <div class="lid-back"></div>
+                <div class="lid-right"></div>
+            </div>
+        </div>
+        
+        <div class="instruction">
+            Click to open!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
